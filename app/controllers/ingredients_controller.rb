@@ -1,5 +1,8 @@
 class IngredientsController < ApplicationController
 
+  def index
+  end
+
   def new
     @ingredient = Ingredient.new
   end
